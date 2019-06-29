@@ -1,9 +1,10 @@
 {
-  "name": "easy-peasy-bot",
+  "name": "maverickio-bot",
   "version": "1.0.0",
   "description": "The awesomest bot evar.",
   "main": "index.js",
   "scripts": {
+    "bot": "TOKEN=xoxb-668240129653-679145408405-W8CHt6etkBDknjodW7WUHCoW npm start",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,7 +26,8 @@
     "node": "5.1.1"
   },
   "dependencies": {
-    "botkit": "0.0.5",
+    "axios": "^0.19.0",
+    "botkit": "0.2.2",
     "botkit-storage-mongo": "^1.0.2",
     "mongodb": "^1.4.39"
   }
